@@ -3,9 +3,9 @@ Rank	Team	Primary Problem Solved	Base	Docs	Tests	Extras	Total	Verified Reasoning
 2	Team 1	Legacy Code Lazarus	10	3	3	0	16.0	(Tie) Docs (2 files); Tests (1 file).
 2	Team 7	Automated Auditor	10	3	3	0	16.0	(Tie) Docs (2 files); Tests (1 file).
 3	Team 4	Legacy Code Lazarus	10	2	3	0	15.0	Docs (python_module_flowchart.png); Tests (legacy_unittestcase.py).
-4	Team 5	Legacy Code Lazarus	10	2	0	0	12.0	(Tie) Docs (P1-flow-chart.png).
-4	Team 6	Automated Auditor	10	2	0	0	12.0	(Tie) Docs (Automating...WCA.pdf).
-4	Team 9	Automated Auditor	10	2	0	0	12.0	(Tie) Docs (Team-9/Problem-3-Solution-approach.boxnote).
-7	Team 2	E-commerce Enigma	10	1	0	0	11.0	(Tie) Docs (The high-quality Team-2/p2/GETTING_STARTED.md itself).
-7	Team 3	Automated Auditor	10	1	0	0	11.0	(Tie) Docs (Good in-code quality in Team-3/p3/auditor.py).
-7	Team 10	Legacy Code Lazarus	10	1	0	0	11.0	(Tie) Docs (Good in-code quality in Team-10/p1/solution.py).
+4	Team 9	Automated Auditor	10	2	0	1	13.0	(Tie) Docs (Team-9/Problem-3-Solution-approach.boxnote).
+5	Team 5	Legacy Code Lazarus	10	2	0	0	12.0	(Tie) Docs (P1-flow-chart.png).
+5	Team 6	Automated Auditor	10	2	0	0	12.0	(Tie) Docs (Automating...WCA.pdf).
+6	Team 2	E-commerce Enigma	10	1	0	0	11.0	(Tie) Docs (The high-quality Team-2/p2/GETTING_STARTED.md itself).
+6	Team 3	Automated Auditor	10	1	0	0	11.0	(Tie) Docs (Good in-code quality in Team-3/p3/auditor.py).
+6	Team 10	Legacy Code Lazarus	10	1	0	0	11.0	(Tie) Docs (Good in-code quality in Team-10/p1/solution.py).
