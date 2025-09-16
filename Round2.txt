@@ -1,0 +1,11 @@
+Final Rank	Team	Base Score	Extras (Code Comment/test/Doc/Additional attempt)	Total Score	Summary of Evaluation & Reasoning for Extras
+1	Team 7	10	2/2/2/0	16.0	Outstanding. Awarded 6 extra points for exemplary code quality, comprehensive documentation (2 files), and robust testing (1 file).
+2	Team 1	10	2/1/2/0	15.0	Excellent. Awarded 6 extra points for high-quality code, clear documentation (2 files), and well-written tests (1 file).
+3	Team 8	10	1/1/0/2	14.0	Ambitious and functional. Awarded the highest extra points (7) for solving two separate problems and providing good documentation.
+4	Team 4	10	0/2/1/0	13.0	Functional, but needs polish. Awarded 5 extra points for providing unit tests and a flowchart diagram.
+5 	Team 5	10	2/0/1/0	13.0	Good and solid. Awarded 2 extra points for a well-formatted README and a clear flowchart diagram.
+5 	Team 6	10	0/0/2/0	12.0	Good. Awarded 2 extra points for providing a PDF documentation file.
+5 	Team 9	10	0/2/0/1 13.0	Good. Awarded 2 extra points for providing a .boxnote file detailing their solution approach.
+6 	Team 2	10	0/0/2/0	12.0	Met requirements. Awarded 1 extra point for a high-quality GETTING_STARTED.md file.
+6 	Team 3	10	0/0/0/0	10.0	Met requirements. Awarded 1 extra point for good in-code quality and comments.
+6 	Team 10	10	1/0/0/0	11.0	Met requirements. Awarded 1 extra point for good in-code quality and comments.
