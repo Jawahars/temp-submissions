@@ -1,0 +1,30 @@
+package com.example.customerorder;
+import com.example.customerorder.Order;
+import com.example.customerorder.OrderService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
+
+@RestController
+@RequestMapping("/api/orders")
+public class CustomerOrderController {
+
+    @Autowired
+    private OrderService orderService;
+
+    @GetMapping
+    public List<Order> getAllOrders() {
+        return orderService.getAllOrders();
+    }
+
+    @PostMapping
+    public Order createOrder(Order order) {
+        return orderService.createOrder(order);
+    }
+
+    @GetMapping("/{id}")
+    public Order getOrderById(@PathVariable Long id) {
+        return orderService.getOrderById(id).orElseThrow(() -> new RuntimeException("Order not found"));
+    }
+}

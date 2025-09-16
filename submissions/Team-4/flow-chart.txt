@@ -1,0 +1,131 @@
+-----------------------+
+
+|  Start                |
+
++-----------------------+
+
+       |
+
+       |
+
+       v
+
++-----------------------+
+
+|  Determine Discount  |
+
+|  Rate (Loyalty Level) |
+
++-----------------------+
+
+       |
+
+       |  Loyalty Level  |
+
+       |  1, 2, or 3    |
+
+       v
+
++-----------------------+---------------+
+
+|  Loyalty Level 1    |               |
+
+|  Discount Rate = 5% |               |
+
+|  Move to Next Step  |               |
+
++-----------------------+               |
+
+       |                                  |
+
+       |  Loyalty Level 2                |
+
+       |  Discount Rate = 10%            |
+
+       v                                  |
+
++-----------------------+---------------+
+
+|  Loyalty Level 3    |               |
+
+|  Discount Rate = 20% |               |
+
+|  Move to Next Step  |               |
+
++-----------------------+               |
+
+       |                                  |
+
+       |  Quantity > 20?                |
+
+       v                                  |
+
++-----------------------+---------------+
+
+|  Yes, Add Bulk Discount |               |
+
+|  (Additional 5%)      |               |
+
+|  Move to Next Step    |               |
+
++-----------------------+               |
+
+       |                                  |
+
+       |  No, Move to Next Step         |
+
+       |                                  |
+
+       v                                  |
+
++-----------------------+
+
+|  Calculate Base Total |
+
+|  (Price x Quantity)   |
+
++-----------------------+
+
+       |
+
+       |  Calculate Discount  |
+
+       |  Amount (Base Total  |
+
+       |  x Discount Rate / 100) |
+
+       v
+
++-----------------------+
+
+|  Calculate Final Price |
+
+|  (Base Total -        |
+
+|  Discount Amount)     |
+
++-----------------------+
+
+       |
+
+       |
+
+       v
+
++-----------------------+
+
+|  Return Final Price   |
+
++-----------------------+
+
+       |
+
+       |
+
+       v
+
++-----------------------+
+
+|  End                  |
+
++-----------------------+
